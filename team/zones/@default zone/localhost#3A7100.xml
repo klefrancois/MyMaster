@@ -1,0 +1,68 @@
+<lg-host browserBasedSupport="true" citrixSupport="false"
+    hostname="localhost:7100" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="true"
+    uid="f57e8fcc-68f1-4b7a-ab2c-695eae92a525" version="2023.2.0;build=20230706-27">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Intel(R) Wi-Fi 6 AX201 160MHz"
+        enabled="false" isLoopBack="false" name="wlan0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="tri-cnd14579z9">
+            <ip value="10.0.0.2"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:6d5:63d7:71b1:37c0%wlan0">
+            <ip value="fe80:0:0:0:6d5:63d7:71b1:37c0%wlan0"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network)"
+        enabled="false" isLoopBack="false" name="eth6">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:769d:8820:ed85:d9be%eth6">
+            <ip value="fe80:0:0:0:769d:8820:ed85:d9be%eth6"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter #2"
+        enabled="false" isLoopBack="false" name="eth29">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="tri-cnd14579z9.mshome.net">
+            <ip value="172.31.144.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:bc36:e868:28b1:1d27%eth29">
+            <ip value="fe80:0:0:0:bc36:e868:28b1:1d27%eth29"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Microsoft Wi-Fi Direct Virtual Adapter #3"
+        enabled="false" isLoopBack="false" name="wlan3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:eaa8:7f2a:69fe:d9ce%wlan3">
+            <ip value="fe80:0:0:0:eaa8:7f2a:69fe:d9ce%wlan3"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter"
+        enabled="false" isLoopBack="false" name="eth12">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="tri-cnd14579z9">
+            <ip value="172.27.64.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:df74:b0a7:e547:896f%eth12">
+            <ip value="fe80:0:0:0:df74:b0a7:e547:896f%eth12"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>
