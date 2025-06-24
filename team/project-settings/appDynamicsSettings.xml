@@ -1,2 +1,2 @@
-<appDynamicsSettings appDynamicsEnabled="false"
-    containerNamesEnabled="false" logicalActionNamesEnabled="false" vuNamesEnabled="false"/>
+<appDynamicsSettings appDynamicsEnabled="true"
+    containerNamesEnabled="true" logicalActionNamesEnabled="true" vuNamesEnabled="true"/>
