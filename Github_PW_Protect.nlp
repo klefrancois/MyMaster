@@ -1,0 +1,17 @@
+# Project description file
+
+project.name=Github_PW_Protect
+project.version=8.10
+project.original.version=8.10
+product.name=NeoLoad
+product.original.name=NeoLoad
+ssh.trustUnknownHosts.MONITORS=false
+monitor.tls.insecure=false
+product.original.version=2025.1.0
+project.is-open-test-settings-after-upload=false
+project.password.hash=4rXMv+9V6v1D4acL6HZ4Z+o124x7arNZix5qFz+fRKs=$0
+project.id=319d5502-69cc-4bc2-b93c-cbcee81fa62d
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=klefrancois/MyMaster.git
